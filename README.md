@@ -1,6 +1,6 @@
 # News-App
  
-A dynamic news web application featuring an interactive card layout. Users can effortlessly switch between categories, staying informed with real-time updates powered by a news API. 
+A news web application showcasing an engaging card-based layout. Users can seamlessly navigate through various news categories, receiving up-to-the-date updates via a news API.
 
 ## Features
 
