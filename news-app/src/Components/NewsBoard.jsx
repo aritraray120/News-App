@@ -24,12 +24,22 @@ function NewsBoard({category}) {
          {
             
                 articles.map((news, index)=>{
+
+                    if(news.title !== '[Removed]' || news.description !== '[Removed]') {
+
+                        return <NewsItem key={index} title={news.title} description={news.description} src={news.urlToImage} url={news.url} />
+
+                    }
             
             
-                    return <NewsItem key={index} title={news.title} description={news.description} src={news.urlToImage} url={news.url} />
+                    
+                    
                  }
                  
                  )
+
+                
+
            
          
          }
